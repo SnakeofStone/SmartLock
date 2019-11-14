@@ -1,0 +1,34 @@
+The zip file shall include the following
+
+Document in PDF
+	Introduction
+	Scope of work
+	Justification
+	Theoretical framework
+	Requirements 
+	Functional description
+	Schedule
+	Modules (from KL ADC,UART...)
+	Architecture
+	Flow chart
+	Materials
+	Problems found 
+	Lessons learned
+Source folder from MCUXpresso
+Documentation folder from Doxygen
+Shortcut to video in youtube 
+ To create the shortcut
+	Right click within the folder where you want to place the shortcut
+	Select New 
+	Select Shortcut
+	Paste the link to your video www.youtube.com....
+	Click Next
+	Type your project name: Robotronic Video
+	Click Finish
+
+
+This activity is individual, each one shall upload this zip file with their own lessons learned.
+
+The zip file name shall include the following: Period_ProjectName_YourName.zip
+
+ejemplo: 1803_Robotronic_AlbertoDiaz.zip
