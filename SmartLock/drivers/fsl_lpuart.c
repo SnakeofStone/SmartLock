@@ -1,3 +1,4 @@
+#if 0
 /*
  * Copyright (c) 2015-2016, Freescale Semiconductor, Inc.
  * Copyright 2016-2018 NXP
@@ -2129,4 +2130,5 @@ void ADMA_UART3_INT_DriverIRQHandler(void)
     __DSB();
 #endif
 }
+#endif
 #endif

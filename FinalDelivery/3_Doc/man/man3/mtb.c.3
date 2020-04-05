@@ -1,0 +1,50 @@
+.TH "source/1_APP/mtb.c" 3 "Fri Nov 15 2019" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+source/1_APP/mtb.c \- MTB initialization file\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <cr_mtb_buffer\&.h>\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fB__MTB_BUFFER_SIZE\fP   128"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fB__CR_MTB_BUFFER\fP (\fB__MTB_BUFFER_SIZE\fP)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+MTB initialization file\&. 
+
+Symbols controlling behavior of this code\&.\&.\&. __MTB_DISABLE If this symbol is defined, then the buffer array for the MTB will not be created\&.
+.PP
+__MTB_BUFFER_SIZE Symbol specifying the sizer of the buffer array for the MTB\&. This must be a power of 2 in size, and fit into the available RAM\&. The MTB buffer will also be aligned to its 'size' boundary and be placed at the start of a RAM bank (which should ensure minimal or zero padding due to alignment)\&.
+.PP
+__MTB_RAM_BANK Allows MTB Buffer to be placed into specific RAM bank\&. When this is not defined, the 'default' (first if there are several) RAM bank is used\&. 
+.PP
+Definition in file \fBmtb\&.c\fP\&.
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define __MTB_BUFFER_SIZE   128"
+
+.PP
+Definition at line 60 of file mtb\&.c\&.
+.SH "Function Documentation"
+.PP 
+.SS "__CR_MTB_BUFFER (\fB__MTB_BUFFER_SIZE\fP)"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

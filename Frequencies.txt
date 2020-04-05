@@ -1,0 +1,4 @@
+A4 = 440Hz = 2.2727 ms
+A5 = 880Hz = 1.13636 ms
+
+https://pages.mtu.edu/~suits/notefreqs.html
